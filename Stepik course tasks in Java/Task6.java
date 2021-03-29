@@ -9,9 +9,6 @@ import java.util.concurrent.TimeUnit;
 
 public class Main {
 
-    public static String calc(String x){
-        return Double.toString(Math.log(Math.abs(12*Math.sin(Integer.parseInt(x)))));
-    }
     public static void main(String[] args) throws InterruptedException {
 
         System.setProperty("webdriver.chrome.driver", "C:\\Users\\kate_s\\Downloads\\chromedriver\\chromedriver.exe"); //define path to the webdriver
